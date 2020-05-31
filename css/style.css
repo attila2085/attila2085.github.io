@@ -1,0 +1,33 @@
+.topNav {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+.topNav li {
+    float: right;
+}
+.topNav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.topNav li a :hover {
+    background-color: grey;
+}
+
+#content {
+    margin: 40px auto;
+    padding: 0 100 0 40;
+    display: flex;
+}
+
+.baseImg {
+    width: 600px;
+}
+#cartButton {
+    float: right;
+}
