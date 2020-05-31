@@ -1,34 +1,32 @@
-.topNav {
-    list-style-type: none;
-     margin: 0;
-     padding: 0;
+#topLinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.topNav li {
-    float: right;
+#topLinks ul li {
+    float: left;
 }
-.topNav li a {
+#topLinks ul li a {
+    font-size: 13px;
     display: block;
     color: black;
     text-align: center;
-    padding: 10px;
+    padding: 16px;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: 600;
 }
-.topNav li a :hover {
-    background-color: grey;
-}
-
-.container {
-    width: 1366px;
+#mainImg {
+    width: 500px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 #content {
     margin-top: 30px;
-    
 }
-.baseImg {
-    max-width: 60%;
+#content p {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
 }
-#cartButton {
-    float: right;
+.navigator {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
