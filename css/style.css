@@ -19,14 +19,10 @@
     background-color: grey;
 }
 
-#content {
-    margin: 40px auto;
-    padding: 0 100 0 40;
-    display: flex;
-}
+
 
 .baseImg {
-    width: 600px;
+    max-width: 700px;
 }
 #cartButton {
     float: right;
