@@ -171,9 +171,9 @@ nav ul li a:active {
     justify-content: space-evenly;   
 }
 #boxid {
+    
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 5px black;
     justify-content: space-around;
     
 }
@@ -186,10 +186,12 @@ nav ul li a:active {
     display: block;
 }
 #boxContent {
-   margin: auto;
-    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
     padding: 20px;
     font-weight: 500;
+    
 }
 .title {
     display: flex;
