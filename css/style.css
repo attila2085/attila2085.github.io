@@ -171,7 +171,7 @@ nav ul li a:active {
     justify-content: space-evenly;   
 }
 #boxid {
-    
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
