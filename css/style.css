@@ -166,7 +166,7 @@ nav ul li a:active {
     margin-top: 30px;
 }
 #box {
-    
+    width: 100%;
     display: flex;
     justify-content: space-evenly;   
 }
@@ -180,12 +180,13 @@ nav ul li a:active {
     
 }
 #box img {
-    height: 250px;
+    width: auto;
 }
 #imgDiv {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 100%;
 }
 #boxContent {
     margin-right: auto;
