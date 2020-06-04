@@ -35,16 +35,36 @@ nav ul li a {
     
      
 }
-nav ul li a:hover {
-    background-color: rgb(76, 109, 180);
+nav ul li  a:hover {
+    background-color: rgba(255, 255, 255,.5);
     border-radius: 3px;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255,.5);
 }
-.active:hover  {
-    background-color: salmon;
-    color: rgba(255, 255, 255, .5); 
+nav ul li a:active {
+    background-color: rgba(255, 255, 255,.5);
+    border-radius: 3px;
+    color: rgba(255, 255, 255,.5);
 }
 .cartLogo {
     margin-top: 30px;
     float: right;
+}
+@media only screen and (max-width: 750px) {
+    .navigation, .cartLogo {
+        display: none;
+    }
+}@media only screen and (min-width: 749px) {
+    .dropdown, .mobileNav {
+        display: none;
+    }
+}
+.button {
+    background-color: seagreen;
+    border: none;
+    color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
