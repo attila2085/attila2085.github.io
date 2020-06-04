@@ -188,7 +188,7 @@ nav ul li a:active {
 #boxContent {
     margin-right: auto;
     margin-left: auto;
-    width: 400px;
+    width: auto;
     padding: 20px;
     font-weight: 500;
     
