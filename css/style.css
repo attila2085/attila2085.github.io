@@ -3,12 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .wrapper {
     width: 100%;
 }
 .infoBar ul {
     list-style: none;
-    display: inline-block;
+    
     float: right;
 }
 .infoBar ul li {
@@ -26,7 +30,14 @@
 .fbLogo {
     width: 20px;
 }
+.shoppingcart {
+    height: 35px;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 2px;
+    margin-top: 20px;
+}
 h3 {
+    font-family: 'Varela Round', sans-serif;
     font-size: 30px;
     color: rgb(190, 182, 182);
     letter-spacing: 5px;
@@ -150,4 +161,38 @@ nav ul li a:active {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+}
+#container {
+    margin-top: 30px;
+}
+#box {
+    
+    display: flex;
+    justify-content: space-evenly;   
+}
+#boxid {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px black;
+    justify-content: space-around;
+    
+}
+#box img {
+    height: 250px;
+}
+#imgDiv {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#boxContent {
+   margin: auto;
+    width: 450px;
+    padding: 20px;
+    font-weight: 500;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
