@@ -3,12 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html, body {
+    height: 100%;
+}
+.fullHeight {
+    height: 100%
+}
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .wrapper {
     width: 100%;
+    
    
 }
 .infoBar ul {
@@ -148,14 +155,14 @@ nav ul li a:active {
     background-color: rgba(255,255,255,.2);
   }
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 820px) {
     .navigation {
         display: none;
     }
     h3 {
         font-size: 23px;
     }
-}@media only screen and (min-width: 749px) {
+}@media only screen and (min-width: 819px) {
     .dropdown, .mobileNav {
         display: none;
     }
@@ -176,7 +183,7 @@ nav ul li a:active {
     display: inline-block;
     font-size: 12px;
 }
-#container {
+.container {
     margin-top: 30px;
 }
 .title {
@@ -184,6 +191,11 @@ nav ul li a:active {
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
+}
+#box {
+    display: flex;
+    margin: 0;
+    align-items: stretch;
 }
 #boxid {
     display: flex;
@@ -210,4 +222,20 @@ nav ul li a:active {
 }
 #boxContent p {
     padding: 20px;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.footercontent {
+    background-color: #373b40;
+    width: 100%;
+}
+.footercontent h1 {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
 }
