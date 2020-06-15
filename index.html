@@ -1,90 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    
+    
     <title>Document</title>
 </head>
-
 <body>
+    
 
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mainNav">
+        <a class="navbar-brand" href="#"> <img class="logoImg" src="/img/logo.png" width="40px" height="40px" alt="logo">BlackSerpents </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Piton regal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gecko leopard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hrana</a>
+            </li>
+             </ul>
 
-        <nav class="topNav">
-            <ul>
-                <li><a href="#">Livrari</a></li>
-                <li><a href="#">Predare personala</a></li>
-                <li><a href="#">Contact</a></li>
+             <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fab fa-instagram"></i> Instagram</a>
+                </li>
             </ul>
-        </nav>
-
-        <header class="header">
-           
-           <div class="banner"><h1>BlackSerpents</h1></div>
-
-           
-
-        </header>
-
-        <nav class="mainNav">
-            <ul>
-                <li><a href="index.html"><button class="btn">Home</button></a></li>
-                <li><a href="snakes.html"><button class="btn">Piton regal</button></a></li>
-                <li><a href="lizards"><button class="btn">GeckoLeopard</button></a></li>
-                <li><a href="food"><button class="btn">Hrana</button></a></li>
-            </ul>
-        </nav>
-
-        <main class="main">
-          <div class="img">
-              <img src="/img/python.png" alt="">
-          </div>
-          <div class="text">
-              <p>Pitonul regal (Python regius) sau pitonul-bilă este o specie neveninoasă de pitoni
-                   răspândită în Africa. Este cel mai mic piton african și este popular în comerțul
-                    cu animale, în mare măsură datorită temperamentului său docil. Numele de 
-                    "Piton-bilă" se referă la tendința animalului de a se încolăci în formă de 
-                    minge atunci când este stresat sau speriat, protejând capul în centrul bobinei.
-                     Numele "Pitonul regal "(în latină regius), se bazează pe povestea în care 
-                     Cleopatra purta șarpele în jurul încheieturii mâinii.</p>
-          </div>
-
-          <div class="img">
-            <img src="/img/python.png" alt="">
+          
         </div>
-        <div class="text">
-            <p>Pitonul regal (Python regius) sau pitonul-bilă este o specie neveninoasă de pitoni
-                 răspândită în Africa. Este cel mai mic piton african și este popular în comerțul
-                  cu animale, în mare măsură datorită temperamentului său docil. Numele de 
-                  "Piton-bilă" se referă la tendința animalului de a se încolăci în formă de 
-                  minge atunci când este stresat sau speriat, protejând capul în centrul bobinei.
-                   Numele "Pitonul regal "(în latină regius), se bazează pe povestea în care 
-                   Cleopatra purta șarpele în jurul încheieturii mâinii.</p>
+      </nav>
+
+    <main class="container wrapper">
+        
+        <div class="row boxRow">
+            <div class="col-xs-12 boxWrapper">
+                <div class="box">
+                    <img src="/img/python.png" alt="snake">
+                    <div class="boxContent">
+                        <h2>Piton regal</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                             of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of 
+                             Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="col-xs-12 boxWrapper">
+                <div class="box">
+                    <img src="/img/gecko.jpg" alt="snake">
+                    <div class="boxContent">
+                        <h2>Gecko leopard</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                             of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of 
+                             Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-xs-12 boxWrapper">
+                <div class="box">
+                    <img src="/img/worms.jpg" alt="snake">\
+                    <div class="boxContent">
+                        <h2>Mealworms</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                             of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of 
+                             Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-xs-12 boxWrapper">
+                <div class="box">
+                    <img src="/img/rat.jpg" alt="snake">
+                    <div class="boxContent">
+                        <h2>Sobolani</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                             of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of 
+                             Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="img">
-            <img src="/img/python.png" alt="">
-        </div>
-        <div class="text">
-            <p>Pitonul regal (Python regius) sau pitonul-bilă este o specie neveninoasă de pitoni
-                 răspândită în Africa. Este cel mai mic piton african și este popular în comerțul
-                  cu animale, în mare măsură datorită temperamentului său docil. Numele de 
-                  "Piton-bilă" se referă la tendința animalului de a se încolăci în formă de 
-                  minge atunci când este stresat sau speriat, protejând capul în centrul bobinei.
-                   Numele "Pitonul regal "(în latină regius), se bazează pe povestea în care 
-                   Cleopatra purta șarpele în jurul încheieturii mâinii.</p>
-        </div>
-        </main>
-
-        <footer class="footer">
-          4
-        </footer>
-
-    </div>
-
-
+    </main>
+<script src="js/"></script>
 </body>
-
 </html>

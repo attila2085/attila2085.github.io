@@ -1,0 +1,37 @@
+html {
+    font-size: 14px;
+    line-height: 15px;
+}
+.img {
+    max-width: 100%;
+}
+.logoImg {
+    padding: 5px;
+}
+h1 h2 h3 {
+    text-align: center;
+    margin: 50px 0px;
+}
+.wrapper {
+    width: 100%;
+}
+.header {
+    margin: auto;
+}
+.mainNav {
+    background-color: blue;
+    margin-bottom: 30px;
+}
+.box .boxContent {
+    padding: 15px;
+}
+.box {
+    margin: 30px;
+    height: 100%;
+    width: 400px;
+    box-shadow: 0px 0px 20px black;
+    justify-content: center;
+}
+.boxWrapper {
+    margin-bottom: 30px;
+}
