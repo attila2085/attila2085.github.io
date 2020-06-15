@@ -4,18 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
-
-
+    <link rel="stylesheet" href="/css/main.css">
     <title>Document</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark mainNav">
-        <a class="navbar-brand" href="#"> <img class="logoImg" src="/img/logo.png" width="40px" height="40px"
-                alt="logo">BlackSerpents </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,113 +23,118 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Piton regal</a>
+                    <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Gecko leopard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Hrana</a>
-                </li>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.facebook.com/BlackSerpents">
-                        <i class="fab fa-facebook-f"></i> Facebook
-                        <span class="sr-only">(current)</span>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/black_serpents/">
-                        <i class="fab fa-instagram"></i> Instagram</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
-
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
-
-
-    <main class="container-fluid wrapper">
-
-
-
-        <div class="row boxRow">
-            <div class="col-sm-4 boxWrapper">
-                <div class="box">
+    <div class="container wrapper">
+        <div class="row">
+            <div class="col-md-5 doboz">
+                <div class="imgDiv">
                     <img src="/img/python.png" alt="snake">
-                    <div class="boxContent">
-                        <h2>Piton regal</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only
-                            five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the release
-                            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.</p>
-                    </div>
+                </div>
+                <div class="dobozText">
+                    <h1>Piton regal</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                        has
+                        survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with
+                        the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions
+                        of Lorem Ipsum.</p>
                 </div>
             </div>
-
-
-            <div class="col-sm-4 boxWrapper">
-                <div class="box">
+            <div class="col-md-5 doboz">
+                <div class="imgDiv">
                     <img src="/img/gecko.jpg" alt="snake">
-                    <div class="boxContent">
-                        <h2>Gecko leopard</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only
-                            five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the release
-                            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.</p>
-                    </div>
                 </div>
-            </div>
-
-            <div class="col-sm-4 boxWrapper">
-                <div class="box">
-                    <img src="/img/worms.jpg" alt="snake">\
-                    <div class="boxContent">
-                        <h2>Mealworms</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only
-                            five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the release
-                            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 boxWrapper">
-                <div class="box">
-                    <img src="/img/rat.jpg" alt="snake">
-                    <div class="boxContent">
-                        <h2>Sobolani</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only
-                            five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the release
-                            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of
-                            Lorem Ipsum.</p>
-                    </div>
+                <div class="dobozText">
+                    <h1>Piton regal</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                        has
+                        survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with
+                        the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions
+                        of Lorem Ipsum.</p>
                 </div>
             </div>
         </div>
-    </main>
-    <script src="js/"></script>
+     
+     
+        <div class="row">
+            <div class="col-md-5 doboz">
+                <div class="imgDiv">
+                    <img src="/img/rat.jpg" alt="snake">
+                </div>
+                <div class="dobozText">
+                    <h1>Piton regal</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                        has
+                        survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with
+                        the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions
+                        of Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="col-md-5 doboz">
+                <div class="imgDiv">
+                    <img src="/img/worms.jpg" alt="snake">
+                </div>
+                <div class="dobozText">
+                    <h1>Piton regal</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                        has
+                        survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with
+                        the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions
+                        of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

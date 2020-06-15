@@ -1,37 +1,24 @@
-html {
-    font-size: 14px;
-    line-height: 15px;
+body {
+    background-color: #f2f2f2;
 }
-.img {
-    width: 100%;
+.doboz {
+    margin: 25px auto;
+    background-color: #fff;
+    padding: 0px;
+    box-shadow: 0px 0px 8px black;
+    max-width: 400px;
+    min-height: 100%;
 }
-.logoImg {
-    padding: 5px;
-}
-h1 h2 h3 {
+.dobozText {
     text-align: center;
-    margin: 50px 0px;
+    padding: 15px;
+    text-align: justify;
+}
+.imgDiv {
+    text-align: center;
+    min-height: 40%;
 }
 .wrapper {
-    width: 100%;
-}
-.header {
-    margin: auto;
-}
-.mainNav {
-    background-color: blue;
-    margin-bottom: 30px;
-}
-.box .boxContent {
-    padding: 15px;
-}
-.box {
-    margin: 30px;
-    height: 100%;
-    width: 400px;
-    box-shadow: 0px 0px 20px black;
     justify-content: center;
-}
-.boxWrapper {
-    margin-bottom: 30px;
+    align-items: center;
 }
