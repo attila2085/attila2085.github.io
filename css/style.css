@@ -1,0 +1,13 @@
+.bannerImg {
+    width: 100%;
+    height: auto;
+}
+
+.prodImg {
+    margin-top: 20px;
+    max-width: 90%;
+    height: auto;
+}
+.sectionRow {
+    margin: 0px auto;
+}
