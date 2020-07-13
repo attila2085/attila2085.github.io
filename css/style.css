@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 .bannerImg {
     width: 100%;
     height: auto;
@@ -5,9 +9,42 @@
 
 .prodImg {
     margin-top: 20px;
-    max-width: 90%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.prodImg1 {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 197px;
 }
 .sectionRow {
-    margin: 0px auto;
+    margin: 10px auto;
+}
+
+#navigation {
+    align-items: center;
+}
+nav {
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+    background-color: #333333;
+}
+ul li {
+    float: left;
+    padding: 0px 15px;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+
+}
+
+#category {
+    text-align: center;
+    margin-top: 15px;
 }
