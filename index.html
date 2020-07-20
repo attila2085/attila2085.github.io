@@ -3,51 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BlackSerpents</title>
 </head>
 <body>
 
-    <header class="container">
-        <div class="row">
-            <div class="col-12">
-                <img class="bannerImg" src="/img/banner.gif" alt="banner">
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight" >BlackSerpents</span></h1>
             </div>
-        </div>
-        <div class="row">
-            <nav id="navigation" class="col-5">
+            <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="snakes.thml">Serpi</a></li>
-                    <li><a href="lizards">Soparle</a></li>
-                    <li><a href="food">Hrana</a></li>
+                    <li class="current" ><a href="index.html">Home</a></li>
+                    <li><a href="snakes.html">Serpi</a></li>
+                    <li><a href="#">Soparle</a></li>
+                    <li><a href="#">Hrana</a></li>
                 </ul>
             </nav>
-            <div class="col-7"></div>
         </div>
     </header>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-2"></div>
-            <div id="category" class="col-8">
-                <h1>Categorii</h1>
-            </div>
-            <div class="col-2"></div>
+    <section id="showcase">
+        <div class="container">
+            <h1>Afordable Profesional Web Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, obcaecati! Reiciendis eos nobis sed. Veniam exercitationem reprehenderit voluptatibus natus vitae aspernatur pariatur nam sint officia.</p>
         </div>
-        <div class="row sectionRow">
-            <div class="col-4">
-                <a href="snakes.html"><img class="prodImg1" src="/img/python.png" alt=""></a>
+
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our newsletter</h1>
+            <form action="">
+                <input type="email" placeholder="Enter email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="./img/logo_bs.PNG" alt="" >
+                <h3>HTML5 Markup</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aliquid.
             </div>
-            <div class="col-4">
-                <a href="lizards.html"><img class="prodImg1" src="/img/gecko.jpg" alt=""></a>
+            <div class="box">
+                <img src="./img/logo_bs.PNG" alt="" >
+                <h3>CSS styling</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aliquid.
             </div>
-            <div class="col-4">
-                <a href="food.html"><img class="prodImg1" src="/img/worms.jpg" alt=""></a>
+            <div class="box">
+                <img src="./img/logo_bs.PNG" alt="" >
+                <h3>Graphic Design</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aliquid.
             </div>
         </div>
     </section>
+
+    <footer>
+        <p>Acme Webdesign, Copyright &copy; 2020</p>
+    </footer>
     
 </body>
 </html>
