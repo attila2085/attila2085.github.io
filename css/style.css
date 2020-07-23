@@ -79,7 +79,7 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color: #e8491d;
+    color: #048367;
     font-weight: bold;
 }
 
@@ -108,7 +108,10 @@ header a:hover {
 
 /* Media query */
 
-@media only screen and (min-width: 450px) {
+@media only screen and (max-width: 450px) {
+    #showcase {
+        display: none;
+    }
     #boxes {
         margin-top: 20px;
     }
