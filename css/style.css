@@ -45,6 +45,7 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
+    min-width: 500px;
     border-bottom: #a8491d 3px solid;
 }
 /* Navigation */
@@ -56,9 +57,11 @@ header a {
 }
 
 header li {
-    
+    border: 1px solid rgb(36, 37, 36);
+    background: rgb(36, 37, 36);
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 15px;
+    
 }
 
 header #branding {
