@@ -60,7 +60,7 @@ ul li a {
 }
 
 .content {
-    color: #72705f;
+    color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 50%;
     left: 8%;
@@ -72,6 +72,12 @@ h1 {
     font-size: 600%;
     margin: 10px 0px 30px;
     line-height: 80px;
+    text-shadow: 0px 0px 3px black;
+}
+
+span {
+    font-size: 20px;
+    text-shadow: 0px 0px 3px black;
 }
 
 .side-bar {
