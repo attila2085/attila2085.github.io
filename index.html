@@ -3,49 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>BlackSerpents</title>
 </head>
 <body>
-    
-    <div class="wrapper">
-        <nav class="navbar">
-            <img src="./img/logo_bs.jpg" alt="logo" class="logo">
-            <ul>
-                <li><button class="btn-group"><span>Home</span></button></li>
-                <li><button class="btn-group"><span>Home</span></button></li>
-                <li><button class="btn-group"><span>Home</span></button></li>
-                <li><button class="btn-group"><span>Home</span></button></li>
-            </ul>
-        </nav>
-        <section class="content">
-            <span>Where the reptiles begun</span>
-            <h1>Black Serpents</h1>
-            <button id="mainBtn" class="btn-group">Take a tour</button>
-        </section>
-        <div class="side-bar">
-            <img src="./img/menu.png" alt="menu" class="menu">
+
+    <div class="container-fluid wrapper">
+        <header class="row">
+            <div class="col-sm-6 logoDiv">
+                <img class="logoImg" src="./img/logo_bs.jpg" alt="">
+            </div>
+            <nav class="col-sm-6" id="navigation">
+                <ul>
+                    <li><button class="btnGroup"><a href="#">home</a></button></li>
+                    <li><button class="btnGroup"><a href="#">home</a></button></li>
+                    <li><button class="btnGroup"><a href="#">home</a></button></li>
+                    <li><button class="btnGroup"><a href="#">home</a></button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <content class="row">
+            <section class="col-sm-6 mainContent">
+                <div class="box">
+                    <img src="./img/snakes/109930170_289833505407804_7502598578704983704_n.jpg" alt="">
+                    <div class="boxText">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, illum!
+                        </p>
+                    </div>
                 
-                <div class="social-links">
-                    <img src="./img/fb.png" alt="">
-                    <img src="./img/ig.png" alt="">
-                    <img src="./img/tw.png" alt="">
-                </div>
-               
-                <div class="useful-links">
-                    <img src="./img/share.png" alt="">
-                    <img src="./img/info.png" alt="">
-                </div>
-        </div>
-        <div class="leaf">
-            <img src="./img/leaf.png">
-            <img src="./img/leaf.png">
-            <img src="./img/leaf.png">
-            <img src="./img/leaf.png">
-            <img src="./img/leaf.png">
-        </div>
+            </section>
+            <section class="col-sm-6 mainContent">
+                <div class="box">
+                    <img src="./img/snakes/109930170_289833505407804_7502598578704983704_n.jpg" alt="">
+                    <div class="boxText">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, illum!
+                        </p>
+                    </div>
+                
+            </section>
+            <section class="col-sm-6 mainContent">
+                <div class="box">
+                    <img src="./img/snakes/109930170_289833505407804_7502598578704983704_n.jpg" alt="">
+                    <div class="boxText">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, illum!
+                        </p>
+                    </div>
+                
+            </section>
+            <section class="col-sm-6 mainContent">
+                <div class="box">
+                    <img src="./img/snakes/109930170_289833505407804_7502598578704983704_n.jpg" alt="">
+                    <div class="boxText">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, illum!
+                        </p>
+                    </div>
+                
+            </section>
+        </content>
     </div>
-
-
+    
 </body>
 </html>
