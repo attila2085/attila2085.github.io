@@ -5,6 +5,7 @@
     background-size: cover;
     overflow: hidden;
     height: 100%;
+    margin: 0px;
     
 }
 .logoDiv {display: flex;  justify-self: flex-start;}
