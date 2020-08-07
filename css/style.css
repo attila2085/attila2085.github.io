@@ -8,6 +8,9 @@ body {
     background-repeat: no-repeat;
     
 }
+.logo-img {
+    height: 45px;
+}
 .social-img {
     width: 25px;
 }
@@ -42,12 +45,12 @@ body {
 }
 .carousel-image-2 {
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/snakes/110314688_2700963060173762_4637371912612794075_n.jpg');
+    url('../img/gecko/20200807_090809.jpg');
     background-size: cover;
 }
 .carousel-image-3 {
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/snakes/110317079_725558371610843_3399066962713704261_n.jpg');
+    url('../img/mealworms.jpg');
     background-size: cover;
 }
 .title-color {
@@ -61,49 +64,8 @@ body {
     color: #fff;
 }
 
-/* --- Box style --- */
-.main-content {
-    width: 90%;
-    margin: 0px auto;
-}
-.box {
-    margin-top: 20px;
-}
-.card-title {
-    font-weight: 700;
-}
 
-/* --- Slider --- */
 
-.carousel-item {
-    
-    min-height: 100%;
-}
-.carousel-img-1 {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/snakes/110317079_725558371610843_3399066962713704261_n.jpg');
-    background-size: cover;
-}
-.carousel-img-2 {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/snakes/110314688_2700963060173762_4637371912612794075_n.jpg');
-    background-size: cover;
-}
-.carousel-img-3 {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/snakes/109930170_289833505407804_7502598578704983704_n.jpg');
-    background-size: cover;
-}
-.title-color {
-    color: #fff;
-}
-.btn-color {
-    background: #000;
-    color: rgb(96, 114, 121);
-}
-.btn-color:hover {
-    color: #fff;
-}
 
 @keyframes slide-btn {
     16% {
@@ -136,4 +98,19 @@ body {
 .slide-btn:focus,
 .slide-btn:active {
     animation: slide-btn 1s ease-in-out 1;
+}
+
+/* --- Box style --- */
+.main-content {
+    width: 90%;
+    margin: 0px auto;
+}
+.box {
+    margin-top: 20px;
+}
+.card-title {
+    font-weight: 700;
+}
+.card-body {
+    min-height: 100%;
 }
