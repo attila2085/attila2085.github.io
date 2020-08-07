@@ -1,5 +1,12 @@
 body {
+    
     font-family: 'Times New Roman', Times, serif;
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 .social-img {
     width: 25px;
@@ -78,4 +85,9 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
+}
+
+/* --- Box style --- */
+.box {
+    margin-top: 20px;
 }
