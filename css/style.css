@@ -1,13 +1,21 @@
 body {
-    
-    font-family: 'Times New Roman', Times, serif;
     background-image: url('../img/background.jpg');
-    background-position: center;
     background-size: cover;
-    
     background-repeat: no-repeat;
-    
+    background-position: center center;
+    background-attachment: fixed;
 }
+.logo {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    padding-right: 10px;
+}
+.navigation {
+    box-shadow: 0px 0px 2px black;
+}
+
 .logo-img {
     height: 45px;
 }
@@ -30,87 +38,15 @@ body {
 .bg-black {
     background-color: black ;
 }
-/* -----Slider----- */
-.carousel {
-    width: 80%;
-    margin: 40px auto;
+.cards {
+    margin-top: auto;
 }
-.carousel-item {
-    height: 600px;
+.card {
+    margin: 10px auto;
+    box-shadow: 0px 0px 3px black;
 }
-.carousel-image-1 {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/snakes/109930170_289833505407804_7502598578704983704_n.jpg');
-    background-size: cover;
-}
-.carousel-image-2 {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/gecko/20200807_090809.jpg');
-    background-size: cover;
-}
-.carousel-image-3 {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
-    url('../img/mealworms.jpg');
-    background-size: cover;
-}
-.title-color {
-    color: #fff;
-}
-.btn-color {
-    background: #000;
-    text-emphasis: grey;
-}
-.btn-color:hover {
-    color: #fff;
-}
-
-
-
-
-@keyframes slide-btn {
-    16% {
-        transform: translateY(8px);
-    }
-    33% {
-        transform: translateY(-6px);
-    }
-    50% {
-        transform: translateY(4px);
-    }
-    65% {
-        transform: translateY(-2px);
-    }
-    85% {
-        transform: translateY(1px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.slide-btn {
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.slide-btn:hover,
-.slide-btn:focus,
-.slide-btn:active {
-    animation: slide-btn 1s ease-in-out 1;
-}
-
-/* --- Box style --- */
-.main-content {
-    width: 90%;
-    margin: 0px auto;
-}
-.box {
-    margin-top: 20px;
-}
-.card-title {
-    font-weight: 700;
-}
-.card-body {
-    min-height: 100%;
+.card-text {
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
 }

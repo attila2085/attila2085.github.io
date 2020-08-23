@@ -1,21 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f4163bacd48e100119985c5&product=inline-share-buttons" async="async"></script>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+    <title>BlackSerpents</title>
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Black <img class="logo-img" src="/img/Képkivágás.PNG" alt=""> Serpents</a>
              <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -26,15 +23,7 @@
                      <li class="nav-item active">
                          <a href="index.html" class="nav-link">Home</a>
                      </li>
-                     <li class="nav-item">
-                         <a href="snakes.html" class="nav-link">Serpi</a>
-                     </li>
-                     <li class="nav-item">
-                         <a href="lizards.html" class="nav-link">Soparle</a>
-                     </li>
-                     <li class="nav-item">
-                         <a href="food.html" class="nav-link">Hrana</a>
-                     </li>
+                    
                      <li class="nav-item">
                          <a href="contact.html" class="nav-link">Contact</a>
                      </li>
@@ -45,7 +34,7 @@
                          <a href="https://www.instagram.com/black_serpents/" class="nav-link"><img class="social-img" src="./img/ig.png" alt=""></a>
                      </li>
                      <li class="nav-item">
-                         <a href="#" class="nav-link"><img class="social-img" src="./img/share.png" alt=""></a>
+                        <div class="sharethis-inline-share-buttons"></div>
                      </li>
                  </ul>
              </div>
@@ -53,66 +42,67 @@
     </nav>
     <!-- End of navbar-->
 
-     <!-- Slider -->
-     <section id="main">
-      <div id="Carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-              <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#Carousel" data-slide-to="1"></li>
-              <li data-target="#Carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-              <div class="carousel-item carousel-image-1 active">
-                  <div class="container">
-                      <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                          <h1 class="display-3 title-color">Piton regal</h1>
-                          
-                          <a href="#" class="btn btn-color slide-btn btn-large">Detalii</a>
-                      </div>
-                  </div>
-              </div>
-  <!-- End -->
-              <div class="carousel-item carousel-image-2">
-                  <div class="container">
-                      <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                          <h1 class="display-3 title-color">Gecko leopard</h1>
-                          
-                          <a href="#" class="btn btn-color slide-btn btn-lg">
-                              Detalii
-                          </a>
-                      </div>
-                  </div>
-              </div>
+    <!-- Content cards -->
 
-              <div class="carousel-item carousel-image-3">
-                  <div class="container">
-                      <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                          <h1 class="display-3 title-color">Hrana</h1>
-                          
-                          <a href="#" class="btn btn-color slide-btn btn-lg">
-                              Detalii
-                          </a>
-                      </div>
-                  </div>
-              </div>
-              <a href="#Carousel" data-slide="prev" class="carousel-control-prev">
-                  <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a href="#Carousel" data-slide="next" class="carousel-control-next">
-                  <span class="carousel-control-next-icon"></span>
-              </a>
-          </div>
+    <section class="container">
 
-      </div>
+        <div class="row cards">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/snakes/117967211_1116585048744038_610624205061150176_n.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Normal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/snakes/118007110_641812440083506_2909506744296075828_n.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Pinstripe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/snakes/118036424_2683977828584206_1940837665160335414_n.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Butterpin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/snakes/118114183_2808062106092713_8254278949530096376_n.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Butter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/snakes/118114943_2883748345179306_8726659547186090950_n.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Butterpin</p>
+                    </div>
+                </div>
+            </div>
 
-  </section>
-  <!-- End of slider -->
+        </div>
+            
+
+    </section>
+
+    <!-- End of content-->
+
+
     
+        
 
-    <!-- Optional JavaScript -->
+   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
