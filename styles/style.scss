@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  background: radial-gradient(#404040, #202020);
+  height: 100vh;
+}
+.header {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 5rem;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+}
+.logo {
+  font-size: 2.5rem;
+  color: white;
+}
+
+li {
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    background-color: #53a9eb;
+    border-radius: 5px;
+    padding: 2px 3px;
+    margin: 10px;
+  }
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  margin: 5px;
+}
