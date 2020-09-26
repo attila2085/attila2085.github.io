@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Kalam:wght@700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -8,43 +9,60 @@
   flex-wrap: wrap;
 }
 body {
-  background: radial-gradient(#404040, #202020);
-  height: 100vh;
+  background: radial-gradient(#202020, #000000);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header {
-  margin: auto;
-  width: 80%;
+  margin: 10px auto 0px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   min-height: 5rem;
-  background-color: rgba($color: #000000, $alpha: 0.7);
+  background: url(../img/wallpaperflare.com_wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px white;
 }
 .logo {
-  font-size: 2.5rem;
-  color: white;
+  font-size: 3rem;
+  font-family: "Do Hyeon", sans-serif;
+  color: black;
+  text-shadow: 0px 0px 2px black;
 }
 
 li {
   list-style: none;
   a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Kalam", cursive;
     font-size: 1.2rem;
-    background-color: #53a9eb;
-    border-radius: 5px;
-    padding: 2px 3px;
+    font-weight: 600;
+    background-color: #0f0f0f;
+    border-radius: 3px;
+    padding: 2px 5px;
     margin: 10px;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba($color: white, $alpha: 0.2);
   }
 }
 .content {
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
-  justify-content: space-around;
+  justify-content: space-between;
+
   align-items: center;
 }
 .card {
-  margin: 5px;
+  margin-top: 10px;
 }
