@@ -3,71 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <link
       rel="stylesheet"
       href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/css/custom.css" />
-    <title>BlackSerpents</title>
+    <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav class="container-fluid">
-        <ul>
-          <li>Home</li>
-          <li>Serpi</li>
-          <li>Accesorii</li>
-        </ul>
-      </nav>
-    </header>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v8.0",
+        });
+      };
 
-    <section class="container-fluid">
-      <article class="container-md article">
-        <h2>Piton regal</h2>
-        <span>
-          Pitonul regal (Python regius) sau pitonul-bilă este o specie
-          neveninoasă de pitoni răspândită în Africa. Este cel mai mic piton
-          african și este popular în comerțul cu animale, în mare măsură
-          datorită temperamentului său docil. Numele de "Piton-bilă" se referă
-          la tendința animalului de a se încolăci în formă de minge atunci când
-          este stresat sau speriat, protejând capul în centrul bobinei. Numele
-          "Pitonul regal "(în latină regius), se bazează pe povestea în care
-          Cleopatra purta șarpele în jurul încheieturii mâinii.
-        </span>
-      </article>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
 
-      <article class="container-md article">
-        <h2>Caracteristici</h2>
-        <span>
-          Pitonul regal este o specie mică, foarte corpulentă cu un gât subțire
-          și un cap mare. Majoritatea adulților măsoară 1,1-1,5 m. Lungimea
-          maximală este 2 m. Se mișcă întotdeauna lent și se încolăcește sub
-          formă unui ghem strâns atunci când este amenințat, iar corpul
-          protejează capul, care este ascuns în interiorul ghemului.
-        </span>
-      </article>
-
-      <article class="container-md article">
-        <h2>Distribuție și ecologie</h2>
-        <span>
-          Pitonul regal este răspândit în Africa centrală și Africa
-          sub-sahariană, din Senegal, Mali, Guinea-Bissau, Guinea, Sierra Leone,
-          Liberia, Coasta de Fildeș, Ghana, Benin și Nigeria, prin Cameroon,
-          Ciad și Republica Centrafricană până în Sudan și Uganda.[1] Cel mai
-          adesea este întâlnit în pășuni, savane, păduri deschise și zone
-          agricole. Pitonul regal de multe ori se adăpostește în vizuinile
-          rozătoarelor.
-        </span>
-      </article>
-    </section>
-
-    <footer class="container-fluid">
-      <span
-        >Surse: Wikipedia,<a
-          href="https://www.facebook.com/groups/ballpythonro/permalink/881122545621597"
-          >BallPythonRomania</a
-        ></span
-      >
-    </footer>
+    <!-- Your Chat Plugin code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="106101581099064"
+      theme_color="#0084ff"
+      logged_in_greeting="Bine ati venit la BlackSerpents!"
+      logged_out_greeting="Bine ati venit la BlackSerpents!"
+    ></div>
+    <div class="container">
+      <header class="header">
+        <h1 class="logo">BlackSerpents</h1>
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+              <a href="#">Home</a>
+              <a href="#">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
+        <div class="card" style="width: 18rem">
+          <img src="/img/spider.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="/img/spider.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="/img/spider.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="/img/spider.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
