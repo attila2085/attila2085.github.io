@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 750;
+  letter-spacing: 2px;
+}
+
+.navbar ul.nav {
+  margin-right: 15%;
+}
+
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+
+.navbar ul.nav li a {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a {
+  color: #000;
+}
+
+/* --Slider-- */
+#carouselExampleIndicators {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_161041.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_161515.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_161709.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_161850.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_162003.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(6) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_162125.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(7) {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url("../img/snakes/IMG_20201001_162322.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 360px) {
+  #carouselExampleIndicators {
+    position: relative;
+    height: 100vh;
+    max-width: 360px;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item {
+    position: relative;
+    height: 100%;
+    max-width: auto;
+    background: url("../img/snakes/IMG_20201001_161041.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
