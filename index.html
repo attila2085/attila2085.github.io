@@ -1,102 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <title>BlackSerpents</title>
-    <link
-      rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <script src="https://use.fontawesome.com/dbff8fffac.js"></script>
-    <link rel="stylesheet" href="/css/style.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 navbar bg-dark">
-          <a href="index.html" class="logo navbar-brand text-white offset-md-2"
-            >BlackSerpents</a
-          >
-          <ul class="nav">
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Info</a></li>
-          </ul>
-        </div>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">BlackSerpents</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Serpi</a>
+                  </li>
+                  
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
 
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
 
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-            </div>
+          <div class="content container-fluid">
+              <h1 class="product">Produse</h1>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
+          <section class="galery">
+              <img class="snakeImg" src="/img/IMG_20200915_102632.jpg" alt="">
+              <img class="snakeImg" src="/img//IMG_20200915_102743.jpg" alt="">
+              <img class="snakeImg" src="/img/spider.png" alt="">
+              <img class="snakeImg" src="/img/IMG_20200915_102632.jpg" alt="">
+              <img class="snakeImg" src="/img//IMG_20200915_102743.jpg" alt="">
+              <img class="snakeImg" src="/img/spider.png" alt=""><img class="snakeImg" src="/img/IMG_20200915_102632.jpg" alt="">
+              <img class="snakeImg" src="/img//IMG_20200915_102743.jpg" alt="">
+              <img class="snakeImg" src="/img/spider.png" alt="">
+          </section>
+          <footer class="container-fluid fixed-bottom footer">
+            Site created by attila
+        </footer>
     </div>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+    
+</body>
 </html>
