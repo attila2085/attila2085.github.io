@@ -9,24 +9,9 @@
   height: 50px;
 }
 
-html {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 #content {
-  margin-top: 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.cardDiv {
-  padding: 5px;
-}
-
-.card-img-top {
-  max-height: 130px;
-  vertical-align: top;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .carouselTop {
@@ -35,9 +20,20 @@ html {
   margin-bottom: 10px;
 }
 
-.kartyak {
-  margin: 0 auto;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.pack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pack:not(:last-child) {
+  padding-bottom: 5px;
+}
+
+.card-img-top {
+  height: 140px;
 }
 /*# sourceMappingURL=style.css.map */

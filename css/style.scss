@@ -8,28 +8,26 @@
 .logoImg {
   height: 50px;
 }
+
 // Content
-html {
-  background-color: rgba(#000000, 0.8);
-}
+
 #content {
-  margin-top: 15px;
-  align-items: center;
-}
-.cardDiv {
-  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.card-img-top {
-  max-height: 130px;
-  vertical-align: top;
-}
 .carouselTop {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.kartyak {
-  margin: 0 auto;
-  justify-content: space-around;
+.pack {
+  display: flex;
+  justify-content: center;
+}
+.pack:not(:last-child) {
+  padding-bottom: 5px;
+}
+.card-img-top {
+  height: 140px;
 }
