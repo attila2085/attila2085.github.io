@@ -5,6 +5,9 @@
   top: 0;
   z-index: 1;
 }
+.logoImg {
+  height: 50px;
+}
 // Content
 html {
   background-color: rgba(#000000, 0.8);
@@ -16,8 +19,17 @@ html {
 .cardDiv {
   padding: 5px;
 }
+
+.card-img-top {
+  max-height: 130px;
+  vertical-align: top;
+}
 .carouselTop {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.kartyak {
+  margin: 0 auto;
+  justify-content: space-around;
 }
