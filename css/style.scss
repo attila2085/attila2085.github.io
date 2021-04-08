@@ -1,3 +1,7 @@
+// Main
+#body {
+  background-color: lightgrey;
+}
 // Headers & Nav
 #navbar {
   position: -webkit-sticky;
@@ -15,6 +19,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.galeria {
+  max-width: 1140px;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+}
+.galeriatext {
+  text-align: center;
+}
+.galeriafont {
+  font-weight: bold;
+}
 
 .carouselTop {
   text-align: center;
@@ -30,4 +46,8 @@
 }
 .card-img-top {
   height: 140px;
+}
+
+.card-container {
+  margin-top: 15px;
 }
